@@ -1,0 +1,96 @@
+import { ServiceItem } from '../types';
+
+export const SERVICES_DATA: ServiceItem[] = [
+  {
+    id: 'web-dev',
+    title: 'Website Development',
+    tagline: 'High-performance, modern and responsive web architecture.',
+    description: 'We engineer bespoke web applications, enterprise portals, and conversion-focused websites engineered for speed, search visibility, and reliability.',
+    capabilities: [
+      'Business and corporate websites',
+      'E-commerce and portfolio websites',
+      'Landing pages and responsive web design',
+      'Website redesign, optimization and maintenance',
+    ],
+    icon: 'Globe',
+    highlight: true,
+  },
+  {
+    id: 'ui-ux',
+    title: 'UI/UX Design',
+    tagline: 'Intuitive, aesthetically refined human experiences.',
+    description: 'User-centered interfaces that streamline customer journeys, elevate brand credibility, and convert visits into meaningful business relationships.',
+    capabilities: [
+      'Website and app interface design',
+      'User experience research and wireframes',
+      'Interactive prototypes and design systems',
+      'User-friendly, conversion-focused layouts',
+    ],
+    icon: 'Layout',
+  },
+  {
+    id: 'graphic-branding',
+    title: 'Graphic Design & Branding',
+    tagline: 'Memorable visual identities that command authority.',
+    description: 'Holistic brand design systems, luxury print collateral, and vibrant digital campaign assets that tell your brand story with precision.',
+    capabilities: [
+      'Logo and brand identity design',
+      'Business cards, posters and banners',
+      'Social media creatives and advertisements',
+      'Promotional graphics and marketing materials',
+    ],
+    icon: 'Palette',
+  },
+  {
+    id: 'video-editing',
+    title: 'Video Editing',
+    tagline: 'Cinematic storytelling engineered for digital attention.',
+    description: 'High-impact motion content tailored for modern feeds and enterprise presentations, combining seamless color grading, pacing, and visual effects.',
+    capabilities: [
+      'Promotional and corporate videos',
+      'Reels, shorts and social media videos',
+      'Product advertisements and motion graphics',
+      'Professional transitions and visual effects',
+    ],
+    icon: 'Video',
+  },
+  {
+    id: 'photo-editing',
+    title: 'Photo Editing',
+    tagline: 'Commercial retouching and flawless visual styling.',
+    description: 'Studio-grade retouching for commercial products, executive portraits, and campaign imagery that elevate every visual touchpoint.',
+    capabilities: [
+      'Professional photo retouching',
+      'Product image editing',
+      'Background removal and replacement',
+      'Color correction and creative compositions',
+    ],
+    icon: 'Camera',
+  },
+  {
+    id: 'digital-marketing',
+    title: 'Digital Marketing',
+    tagline: 'Targeted reach, visibility and measurable business growth.',
+    description: 'Data-driven marketing campaigns, technical search engine optimization (SEO), and engaging social strategies that amplify your brand footprint.',
+    capabilities: [
+      'Social media marketing',
+      'Search engine optimization (SEO)',
+      'Digital advertising campaigns',
+      'Content strategies and brand awareness',
+    ],
+    icon: 'TrendingUp',
+  },
+  {
+    id: 'it-solutions',
+    title: 'IT & Technical Solutions',
+    tagline: 'Robust infrastructure and proactive technology consulting.',
+    description: 'End-to-end technical consulting, API integrations, and workflow optimizations that keep your digital business running smoothly and securely.',
+    capabilities: [
+      'Technology consulting and troubleshooting',
+      'Website integrations and technical support',
+      'Digital workflow solutions',
+      'Business technology improvements',
+    ],
+    icon: 'Cpu',
+  },
+];
